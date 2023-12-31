@@ -1,0 +1,89 @@
+.hero-area {
+    background-image: url(../image/hero-bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 95vh;
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+.hero-area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: " ";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 10%, rgba(27, 46, 85, 0.61) 27.08%, rgba(27, 46, 85, 0.86) 68.23%, #182A4C 100%);
+    z-index: 0;
+}
+.hero-main {
+    z-index: 1;
+   h1 {
+    font-size: 100px;
+    color: $primary-color;
+    font-weight: 900;
+    margin-top: 30px;
+   }
+   p {
+    font-size: 20px;
+    color: $primary-color;
+    font-weight: 300;
+   }
+   .direct-link {
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    }
+    a.hero-link {
+        font-size: 15px;
+        border: 1px solid $secondary-color;
+        margin: 5px 10px;
+        padding: 6px 18px;
+        text-align: center;
+        display: inline-block;
+        font-weight: 400;
+        border-radius: 35px;
+    }
+    a.hero-link:hover {
+        background-color: $secondary-color;
+        color: $primary-color;
+    }
+
+}
+
+// Responsive CSS
+@media (min-width: 1201px) {
+    
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+    .hero-main h1 {
+        font-size: 60px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .hero-area {
+        height: 100vh;
+    }
+    .hero-main h1 {
+        font-size: 40px;
+    }
+    .hero-main a.hero-link {
+        margin: 5px 3px;
+        padding: 6px 9px;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
+    .hero-area {
+        padding: 0 20px 60px;
+    }
+    
+    .hero-main h1 {
+        font-size: 30px;
+        margin-top: 110px;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+}

@@ -1,0 +1,83 @@
+.actionable-tips-area {
+    background: linear-gradient(180deg, #7766d5 0%, #6c67cd 33%, #5862c0 69%, #435db3 100%);
+    position: relative;
+    .container {
+        background-color: $primary-color;
+        padding: 100px;
+        border-radius: 10px;
+    }
+}
+.actionable-tips-feature {
+    padding-top: 70px;
+}
+.single-tips {
+    min-height: 283px;
+    border-radius: 22px;
+    transition: all .5s;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.single-tips:hover {
+    box-shadow: 0 2px 13px #7F62E2;
+}
+.single-tips-1 {
+    background-image: url(../image/tips-1.png);
+    @include bg-img;
+}
+.single-tips-2 {
+    background-image: url(../image/tips-2.png);
+    @include bg-img;
+}
+.tips-contant {
+    background-color: $secondary-color-2;
+    color: $primary-color;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .5s;
+    height: 0px;
+    opacity: 0;
+    h6 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .tips-contant span {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}
+.single-tips:hover .tips-contant {
+    height: 100%;
+    opacity: 1;
+}
+.div-for-slider {
+    height: 550px;
+}
+
+.actionable-tips-area .container-fluid {
+    position: absolute;
+    bottom: 6%;
+    left: 0;
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+    .slide-contant {
+        border-radius: 30px;
+        left: 0;
+        opacity: 1;
+        p {
+            text-transform: lowercase;
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.casino-category-area {
+    padding: 100px 0 30px;
+}
+.single-category {
+    padding: 50px 0;
+    a.category-link {
+        color: $black;
+        font-size: 18px;
+        border: 1px solid $secondary-color;
+        padding: 10px 25px;
+        display: inline-block;
+        margin: 10px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 400;
+    }
+    a.category-link:hover {
+        color: $primary-color;
+        background-color: $secondary-color;
+        box-shadow: 0 2px 13px $secondary-color;
+    }
+}
+.category-content {
+    padding-bottom: 30px;
+    p {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 300;
+    }
+}

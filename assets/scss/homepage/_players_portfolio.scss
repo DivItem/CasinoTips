@@ -1,0 +1,53 @@
+.players-portfolio-area {
+    background: linear-gradient(180deg, #435db3 0%, #3a5aae 50%, #3258a9 100%);
+    padding: 100px 0;
+    .section-heading {
+        h3 {
+            color: $primary-color;
+            margin-bottom: 15px;
+        }
+    }
+}
+.players-portfolio-slider {
+    padding: 70px 0 20px;
+}
+.single-portfolio {
+    position: relative;
+    .portfolio-image img {
+        max-width: 234px;
+        border-radius: 30px;
+    }
+    .portfolio-contant {
+        padding: 29px 25px 29px 59px;
+        color: #fff;
+        background-color: $secondary-color-2;
+        border-radius: 30px;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 30% auto;
+        grid-template-columns: 30% auto;
+        position: absolute;
+        bottom: 0;
+        left: 17%;
+    }
+}
+.players-name {
+    display: table;
+    h4 {
+        font-size: 36px;
+        font-weight: 700;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    h4 span {
+        font-size: 20px;
+        font-weight: 400;
+        display: block;
+        margin-top: 10px;
+    }
+}
+.players-details p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}

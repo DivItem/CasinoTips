@@ -1,0 +1,94 @@
+.games-guide-area {
+    background: linear-gradient(180deg, #582dd3 0%, #5f3bd3 50%, #6546d4 100%);
+    .container {
+        background-color: $primary-color;
+        padding: 100px;
+        border-radius: 10px;
+    }
+}
+.games-guide-slider {
+    margin-top: 50px;
+}
+.single-slide {
+    position: relative;
+}
+.slide-contant {
+    text-align: center;
+    background: $secondary-color-2;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+.slide-contant h4 {
+    font-size: 24px;
+    color: $primary-color;
+    font-weight: 400;
+}
+.slide-contant p {
+    font-size: 13px;
+    color: $primary-color;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Montserrat;
+    padding: 8px 0;
+}
+.slide-link a {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat';
+    padding: 0 5px;
+    margin: 0 6px;
+    border-bottom: 1px solid $primary-color;
+}
+.sample-slider{
+    width:100%;
+}
+.sample-slider img {
+    width: 100%;
+    margin-left: -15px;
+}
+.swiper-slide.swiper-slide-active {
+    margin: 0 20px;
+    .slide-contant {
+        opacity: 1;
+    }
+}
+.swiper-button-next, .swiper-button-prev {
+    color: $primary-color;
+    top: 47%;
+    background: $secondary-color-2;
+    padding: 30px 20px;
+    margin-left: -10px;
+}
+.swiper-button-prev {
+    margin-left: -10px;
+}
+.swiper-button-next{
+    margin-right: -10px;
+}
+.read-all-feature {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    a.read-all-btn {
+        color: $primary-color;
+        border: 1px solid $secondary-color;
+        background: $secondary-color;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        padding: 5px 50px;
+        border-radius: 38px;
+    }
+    a.read-all-btn:hover {
+        color: $secondary-color;
+        border: 1px solid $secondary-color;
+        background: $primary-color;
+        box-shadow: 0 2px 35px $secondary-color;
+    }
+}

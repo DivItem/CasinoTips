@@ -1,0 +1,42 @@
+@mixin new-section {
+    padding: 50px 0;
+}
+@mixin section-heading-h2 {
+    font-size: 60px;
+    font-weight: 900;
+}
+@mixin section-heading-h3 {
+    font-size: 60px;
+    font-weight: 400;
+}
+@mixin section-heading-p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+@mixin bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@mixin overlay-effect {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    background: #000;
+    opacity: 0.7;
+    z-index: -1;
+}
+@mixin verCenter-parent {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+@mixin verCenter-child {
+    display: table-cell;
+    vertical-align: middle;
+}
+

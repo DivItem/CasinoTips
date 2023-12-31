@@ -1,0 +1,40 @@
+.online-casino-area {
+    background: linear-gradient(180deg, #6545d4 0%, #6f58d5 50%, #7766d5 100%);padding: 100px 0;
+    padding: 100px 0;
+    .section-heading {
+        h3, p {
+            color: $primary-color;
+            margin-bottom: 15px;
+        }
+    }
+    .row.favourite-games-items {
+        margin-top: 50px;
+    }
+}
+.single-casino {
+    text-align: center;
+    padding: 60px 40px;
+    color: $primary-color;
+    margin: 10px 0;
+    border-radius: 30px;
+    h5 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 30px 0 20px;
+    }
+}
+.single-casino-1 {
+    background: linear-gradient(180deg, #937ee0 0%, #7c66da 50%, #705AD5 100%);
+}
+.single-casino-2 {
+    background: linear-gradient(180deg, #937ee0 0%, #7c66da 50%, #7664D5 100%);
+}
+a.read-all-btn.casino-btn {
+    color: $black;
+    border: 1px solid $primary-color;
+    background: $primary-color;
+}
+a.read-all-btn:hover {
+    color: $secondary-color;
+    border: 1px solid $primary-color;
+}
